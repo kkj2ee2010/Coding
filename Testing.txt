@@ -1,0 +1,7 @@
+Testing:
+url : http://localhost:8080/customer/rewards/1
+output : {"id":1,"name":"Hello","firstMonthRewards":110,"secondMonthRewards":240,"thirdMonthRewards":70,"totalRewardAmount":420}
+
+
+url: http://localhost:8080/customer/rewards/
+output: [{"id":1,"name":"Hello","firstMonthRewards":110,"secondMonthRewards":240,"thirdMonthRewards":70,"totalRewardAmount":420},{"id":2,"name":"Welcome","firstMonthRewards":0,"secondMonthRewards":90,"thirdMonthRewards":70,"totalRewardAmount":160}]
